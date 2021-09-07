@@ -95,6 +95,9 @@ li a:active{
   display: flex;
   justify-content: space-between;
 }
+.pizza__list__container{
+  margin-top: 2rem;
+}
 .pizza__title__seeall{
   font-size:1.2rem;
   display: block;
