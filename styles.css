@@ -85,7 +85,7 @@ li a:active{
   background-color: #111;
   background-color: transparent;
   box-shadow: 0 0 6px 0 #00d7c3 inset, 0 0 12px 1px #00d7c3;
-  border: 1px solid #00d7c3;
+  /* border: 1px solid #00d7c3; */
 }
 .container{
   padding: 0px 16px;
