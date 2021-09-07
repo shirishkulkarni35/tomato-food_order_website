@@ -56,6 +56,7 @@ body {
 }
 .navbar2{
   width: 100%;
+  align-items: center;
 }
 ul {
   list-style-type: none;
@@ -74,7 +75,7 @@ li {
 li a {
   display: block;
   color: #00d7c3;
-  border: 2px solid #00d7c3;
+  border: 1px solid #00d7c3;
   text-align: center;
   -webkit-transition: all .15s ease-in-out;
   padding: 10px 12px;
@@ -89,7 +90,7 @@ li a:active{
 }
 .container{
   padding: 0px 16px;
-  margin: 2rem 0;
+  margin-top: 2rem;
 }
 .pizza__list__title{
   display: flex;
@@ -179,3 +180,55 @@ padding: 0.4rem 0.8rem;
 text-decoration:none;
 text-shadow:0px 0px 0px #5b8a3c;
 }
+.text-x1{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #1d3557;
+  font-weight: 900;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 .
+}
+.restaurant__list__container{
+  margin-top: 2rem;
+}
+.restaruant__list__images__container{
+  margin-top: 3rem;
+}
+.restaurant__list__row1{
+  display: flex;
+  align-items: baseline;
+}
+.restaurant__list__row2{
+  display: flex;
+  margin-top: 10px;
+
+  flex-direction: row-reverse;
+
+}
+.restaurant1,.restaurant3{
+  border-radius: 5px;
+  margin: 0 5px;
+  width: 150px;
+  height: 80px;
+}
+.restaurant2,.restaurant4{
+  border-radius: 5px;
+  margin: 0 5px;
+  width: 200px;
+  height: 100px;
+}
+/* .email__update__container{
+  margin-top: 3rem;
+  padding: 15px;
+  width: 100%;
+}
+.email__update__inputfield__container{
+  display: flex;
+  align-items: center;
+}
+.email__update__input{
+  border: 1px solid #ee89a0;
+background-color: #fcedf0;
+color: #1d3557;
+font-weight: 700;
+padding: 0.5rem;
+border-radius: 4px;
+} */
