@@ -89,3 +89,90 @@ li a:active{
   box-shadow: 0 0 6px 0 #00d7c3 inset, 0 0 12px 1px #00d7c3;
   border: 1px solid #00d7c3;
 }
+.container{
+  padding: 0px 16px;
+  margin: 2rem 0;
+}
+.pizza__list__title{
+  display: flex;
+  justify-content: space-between;
+}
+.pizza__title__seeall{
+  font-size:1.2rem;
+  display: block;
+  align-items:center;
+
+}
+.pizza_title__pizza{
+  align-items: center;
+}
+.pizza__card__list{
+  width: 100%;
+  margin-top: 1rem;
+}
+.pizza__card{
+  background-color: white;
+  margin-top: 1rem;
+}
+.pizza__card__image{
+  width: 100%;
+  border-radius: 6px;
+}
+.pizza__desc__container{
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+.pizza__title{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: blue;
+  font-weight: 900;
+}
+.pizza__desc{
+  margin-top: 0.5rem;
+}
+.pizza__properties__conatainer{
+  margin-top: 0.5rem;
+  display:flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.pizza__properties__items__container{
+  display: flex;
+  flex-direction: column;
+}
+.pizza__size__title{
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+.pizza__size__property{
+  font-size: 1rem;
+  font-weight: 900rem;
+
+}
+.pizza__crust__title{
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+.pizza__crust__property{
+  font-size: 1rem;
+  font-weight: 900rem;
+}
+.add__to__cart{
+  float: left;
+  margin-top: 0.5rem;
+}
+.add__to__cart__button{
+background-color:#ffff;
+border-radius:6px;
+border:2px solid #4b8f29;
+display:inline-block;
+cursor:pointer;
+color:#green;
+font-family:Arial;
+font-size:15px;
+font-weight:bold;
+padding: 0.4rem 0.8rem;
+text-decoration:none;
+text-shadow:0px 0px 0px #5b8a3c;
+}
