@@ -206,14 +206,14 @@ text-shadow:0px 0px 0px #5b8a3c;
 .restaurant1,.restaurant3{
   border-radius: 5px;
   margin: 0 5px;
-  width: 150px;
-  height: 80px;
+  width: 40%;
+  height:50%;
 }
 .restaurant2,.restaurant4{
   border-radius: 5px;
   margin: 0 5px;
-  width: 200px;
-  height: 100px;
+  width: 53%;
+  height: 40%;
 }
 /* .email__update__container{
   margin-top: 3rem;
