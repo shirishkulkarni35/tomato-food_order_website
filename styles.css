@@ -125,14 +125,14 @@ li a:active{
 .pizza__title{
   font-size: 1.25rem;
   line-height: 1.75rem;
-  color: blue;
+  color: #6099B8;
   font-weight: 900;
 }
 .pizza__desc{
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
 }
 .pizza__properties__conatainer{
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
   display:flex;
   justify-content: space-between;
   padding: 0.5rem;
