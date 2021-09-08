@@ -138,7 +138,10 @@ li a:active{
 }
 .login__items__container{
   background-color: white;
-  padding:1rem;
+  padding:2rem 4rem;
+}
+.login__username__container{
+  align-items: center;
 }
 .login__username__input{
   margin-top: 0.5rem;
