@@ -210,3 +210,29 @@ font-weight: 700;
 padding: 0.5rem;
 border-radius: 4px;
 }
+@media (min-width:1200px){
+  .container{
+    padding: 0px 200px;
+  }
+  .navbar1{
+    padding: 0 3rem;
+  }
+  .navbar1__text__desc{
+    padding: 0 4rem;
+    font-size: 1.5rem;
+  }
+  .button__primary{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+  .navbar2__items__container{
+    display:flex;
+    justify-content: space-between;
+  }
+  li a{
+    padding: 11px 13px;
+  }
+  .navbar2__login{
+    padding:11px 16px;
+  }
+}
