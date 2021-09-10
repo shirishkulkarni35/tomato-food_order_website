@@ -54,6 +54,9 @@ body {
     border-radius: 4px;
     display: block;
 }
+.button__primary:hover {
+    background-position: right center;
+}
 .navbar2{
   width: 100%;
   align-items: center;
@@ -62,8 +65,8 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
   overflow: hidden;
   background-color: #333;
 }
@@ -78,7 +81,7 @@ li a {
   border: 1px solid #00d7c3;
   text-align: center;
   -webkit-transition: all .15s ease-in-out;
-  padding: 10px 12px;
+  padding: 9px 10px;
   text-decoration: none;
 }
 
@@ -232,7 +235,53 @@ border-radius: 4px;
   li a{
     padding: 11px 13px;
   }
+  li a:hover{
+    background-color: #00d7c3;
+    color: #000;
+    box-shadow: 0 0 5px #00d7c3;,
+                0 0 20px rgb(255 255 0 / 0.8),
+                0 0 35px rgb(255 255 0 / 0.7),
+                0 0 50px rgb(255 255 0 / 0.6);
+    border-color: #fff;
+  }
   .navbar2__login{
     padding:11px 16px;
+  }
+  .restaurant__list__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .text-x1{
+    font-size: 3rem;
+
+    line-height: 1;
+  }
+  .restaurant1,.restaurant3{
+    border-radius: 5px;
+    margin: 0 5px;
+    width: 250px;
+    height: 180px;
+  }
+  .restaurant2,.restaurant4{
+    border-radius: 5px;
+    margin: 0 5px;
+    width: 300px;
+    height: 200px;
+  }
+  .login__container{
+    padding: 3rem 8rem;
+  }
+  .login__items__container{
+    padding: 2rem 15rem;
+  }
+  .email__update__container{
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .email__update__inputfield__container{
+    margin-top: 1rem;
   }
 }
